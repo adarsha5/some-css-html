@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('WhatsApp Image 2023-06-14 at 07.27.43.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+/* ......................navabar ................. */
+.navbar{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    height: 15vh;
+    color: white;
+}
+.logo{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.menu{
+    width: 60vw;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+   
+}
+.menu ul li{
+    margin:0 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.menu ul li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+/* .....................main part.................  */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 85vh;
+    color: rgb(255, 255, 255);
+}
+.main p{
+    width: 50vw;
+    font-size: 20px;
+}
+.main h1{
+    font-size: 50px;
+}
+.main button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+.main button a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+}
+.main button:hover {
+    background-color:rgb(0, 173, 183) ;
+}
+.main button:hover a{
+    color: white;
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url('WhatsApp Image 2023-06-14 at 07.27.43.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+/* .................... navbar .................... */
+.navbar{
+    /* border: 2px solid rgb(255, 119, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+.navbar .logo{
+    /* border: 2px solid rgb(255, 119, 0); */
+    width: 15vw;
+}
+.navbar .logo h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(255, 119, 0);
+}
+.navbar .menu{
+    /* border: 2px solid rgb(255, 119, 0); */
+    width: 60vw;
+}
+.navbar .menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.navbar .menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar .menu ul li{
+    margin: auto;
+}
+.navbar .search{
+    /* border: 2px solid rgb(255, 119, 0); */
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar .search form input{
+    padding: 7px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(173, 82, 3);
+    margin: 0;
+    border-radius: 7px 0 0 7px;
+}
+.navbar .search form input[type=submit]{
+    background-color: rgb(255, 119, 0);
+    border: 2px solid rgb(255, 119, 0);
+    position: relative;
+    right: 10px;
+    border-radius: 0 7px 7px 0;
+}
+
+
+/* ......................... main ......................... */
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    /* border: 2px solid rgb(255, 119, 0); */
+}
+.main .description{
+    width: 65vw;
+    /* border: 2px solid rgb(255, 119, 0); */
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 5vw;
+    position: relative;
+    top: -5vh;
+}
+.main .description h1{
+    font-size: 65px;
+}
+.main .description p{
+    margin: 20px 0;
+    line-height: 30px;
+}
+.main .description button{
+    background-color: rgb(255, 119, 0);
+    border: none;
+    padding: 8px 40px;
+    border-radius: 7px;
+}
+.main .description button a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.main .login{
+    width: 35vw;
+    /* border: 2px solid rgb(255, 119, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+}
+.main .login form{
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.621);
+    height: 50vh;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.main .login form h3{
+    background-color: antiquewhite;
+    color: rgb(255, 119, 0);
+    border: none;
+    border-radius: 7px;
+    width: 70%;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto ;
+}
+.main .login form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(255, 119, 0);
+    margin: 15px auto;
+    width: 70%;
+    padding: 10px 0;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+.main .login form input[type=submit]{
+    background-color: rgb(255, 119, 0);
+    border: none;
+    color: black;
+    border-radius: 7px;
+}
+
+.main .login form p{
+    border: none;
+    border-radius: 7px;
+    width: 70%;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto ;
+    font-size: 17px;
+    font-weight: 400;
+}
+.main .login form p a{
+    text-decoration: none;
+    color: rgb(255, 119, 0);
+}
+.main .login form p i{
+    /* margin: 10px 5%; */
+    font-size: 30px;
+    margin: 0 10px;
+}
